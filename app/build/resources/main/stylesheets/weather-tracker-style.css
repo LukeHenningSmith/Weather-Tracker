@@ -1,0 +1,96 @@
+.root
+{
+	-fx-background-color: white;
+}
+
+.button {
+  -fx-background-color:
+            #707070,
+            linear-gradient(#fcfcfc, #f3f3f3),
+            linear-gradient(#f2f2f2 0%, #ebebeb 49%, #dddddd 50%, #cfcfcf 100%);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 6 15 6 15;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+.button:Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+.button:hover {
+  -fx-background-color:
+      #3c7fb1,
+      linear-gradient(#fafdfe, #e8f5fc),
+      linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 6 15 6 15;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.table-view {
+    -fx-font-family: "Arial";
+  	-fx-font-size: 13px;
+    -fx-font-weight: normal;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+  -fx-background-color:
+      #3c7fb1,
+      linear-gradient(#fafdfe, #e8f5fc),
+      linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-column {
+	-fx-alignment: CENTER;
+}
+
+.menu-bar {
+    -fx-border-width: 0.8;
+}
+
+.menu-bar .label {
+    -fx-font-size: 13.0 pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+    -fx-padding: 5.0px;
+
+}
+.menu-bar .menu-button:hover, .menu-bar .menu-button:focused, .menu-bar .menu-button:showing {
+  -fx-background-color:
+      #3c7fb1,
+      linear-gradient(#fafdfe, #e8f5fc),
+      linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+}
+
+.menu-item .label{
+    -fx-font-size: 13.0 pt;
+    -fx-text-fill: black;
+}
+
+.menu-item:hover{
+  -fx-background-color:
+      #3c7fb1,
+      linear-gradient(#fafdfe, #e8f5fc),
+      linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+}
+
+.progress-bar > .bar {
+    -fx-background-color: linear-gradient(
+        from 0px .75em to .75em 0px,
+        repeat,
+        -fx-accent 0%,
+        -fx-accent 49%,
+        derive(-fx-accent, 30%) 50%,
+        derive(-fx-accent, 30%) 99%
+    );
+}
