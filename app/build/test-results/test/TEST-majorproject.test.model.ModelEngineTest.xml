@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="majorproject.test.model.ModelEngineTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2023-07-06T08:12:08" hostname="Lukes-Air.modem" time="2.419">
+  <properties/>
+  <testcase name="testGetAllCityLocations()" classname="majorproject.test.model.ModelEngineTest" time="1.602"/>
+  <testcase name="testClearCache()" classname="majorproject.test.model.ModelEngineTest" time="0.052"/>
+  <testcase name="testSendReportForwardsAPIErrors()" classname="majorproject.test.model.ModelEngineTest" time="0.074"/>
+  <testcase name="testGetWeatherDataForCity()" classname="majorproject.test.model.ModelEngineTest" time="0.048"/>
+  <testcase name="testAddSameCityAgain()" classname="majorproject.test.model.ModelEngineTest" time="0.034"/>
+  <testcase name="testAboutInformation()" classname="majorproject.test.model.ModelEngineTest" time="0.008"/>
+  <testcase name="testClearAllData()" classname="majorproject.test.model.ModelEngineTest" time="0.021"/>
+  <testcase name="testSendReportAndGetMostRecentErrorValidAndInvalid()" classname="majorproject.test.model.ModelEngineTest" time="0.043"/>
+  <testcase name="testCacheInteraction()" classname="majorproject.test.model.ModelEngineTest" time="0.031"/>
+  <testcase name="testGetWeatherDataForCityUpdatesError()" classname="majorproject.test.model.ModelEngineTest" time="0.011"/>
+  <testcase name="testAddDataAfterSpecificRemoval()" classname="majorproject.test.model.ModelEngineTest" time="0.023"/>
+  <testcase name="testComplexMultipleClearsRemovalsAdditions()" classname="majorproject.test.model.ModelEngineTest" time="0.031"/>
+  <testcase name="testGetWeatherDataForCityForwardsAPIErrors()" classname="majorproject.test.model.ModelEngineTest" time="0.014"/>
+  <testcase name="testSendReportOnlyValidNotifiesObservers()" classname="majorproject.test.model.ModelEngineTest" time="0.127"/>
+  <testcase name="testRemoveSearchedCity()" classname="majorproject.test.model.ModelEngineTest" time="0.012"/>
+  <testcase name="testClearAllDataAddData()" classname="majorproject.test.model.ModelEngineTest" time="0.024"/>
+  <testcase name="testWeatherObserverNotifiedByModel()" classname="majorproject.test.model.ModelEngineTest" time="0.095"/>
+  <testcase name="testConstructionOfModelEngineVariants()" classname="majorproject.test.model.ModelEngineTest" time="0.031"/>
+  <testcase name="testGetWeatherForCityLocationNullBooleanCacheHitAndMiss()" classname="majorproject.test.model.ModelEngineTest" time="0.059"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

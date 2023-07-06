@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="majorproject.test.model.CityLocationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-07-06T08:12:06" hostname="Lukes-Air.modem" time="0.018">
+  <properties/>
+  <testcase name="testConstructCityLocationObjects()" classname="majorproject.test.model.CityLocationTest" time="0.002"/>
+  <testcase name="testCityLocationObjectsToStringVertical()" classname="majorproject.test.model.CityLocationTest" time="0.014"/>
+  <testcase name="testCityLocationObjectsToString()" classname="majorproject.test.model.CityLocationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="majorproject.test.model.OfflineEnginesTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-07-06T08:12:11" hostname="Lukes-Air.modem" time="0.012">
+  <properties/>
+  <testcase name="testOfflineInputEngineGetWeather()" classname="majorproject.test.model.OfflineEnginesTest" time="0.008"/>
+  <testcase name="testOfflineOutputEngineSendEmail()" classname="majorproject.test.model.OfflineEnginesTest" time="0.001"/>
+  <testcase name="testOfflineInputEngineConstruction()" classname="majorproject.test.model.OfflineEnginesTest" time="0.0"/>
+  <testcase name="testOfflineOutputEngineConstruction()" classname="majorproject.test.model.OfflineEnginesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

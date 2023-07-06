@@ -2,7 +2,7 @@ Weather Tracker is a Java application created by Luke Henning-Smith that uses an
 
 How to run:
 1. Set the API keys of SENDGRID_API_EMAIL and SENDGRID_API_KEY for Sendgrid, and the INPUT_API_KEY for Weatherbit.
-2. Use cradle run
+2. Use gradle run --args="offline/online offline/online" where the first argument is for the Weatherbit API offline/online, and the second is for the Sendgrid API offline/online.
 
 How to test:
 1. gradle test      //runs model tests.

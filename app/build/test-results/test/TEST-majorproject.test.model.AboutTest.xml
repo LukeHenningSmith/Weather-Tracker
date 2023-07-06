@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="majorproject.test.model.AboutTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-06T08:12:06" hostname="Lukes-Air.modem" time="0.021">
+  <properties/>
+  <testcase name="testConstructionAbout()" classname="majorproject.test.model.AboutTest" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

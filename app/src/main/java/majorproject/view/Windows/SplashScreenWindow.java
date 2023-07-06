@@ -75,7 +75,7 @@ public class SplashScreenWindow {
     progress.setId("progressBar");
     Timeline timeline = new Timeline(
     new KeyFrame(Duration.ZERO, new KeyValue(progress.progressProperty(), 0)),
-    new KeyFrame(Duration.seconds(15), e-> {
+    new KeyFrame(Duration.seconds(3), e-> {
       weatherPresenter.displayMainWindow();
     }, new KeyValue(progress.progressProperty(), 1))
     );
